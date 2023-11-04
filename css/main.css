@@ -17,6 +17,8 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -40,8 +42,6 @@ ul {
 }
 
 .btn {
-    display: flex;
-    flex-direction: column;
     padding: 8px 16px;
     font-size: 15px;
     font-weight: 700;
@@ -224,7 +224,7 @@ header {
 .xizmatlar {
     text-align: center;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
     margin-bottom: 40px;
@@ -246,9 +246,11 @@ header {
     width: 320px;
     height: 260px;
 }
-.xizmat:hover .before{
+
+.xizmat:hover .before {
     margin-top: -260px;
 }
+
 .xizmat .after {
     background-color: var(--black);
     color: white;
